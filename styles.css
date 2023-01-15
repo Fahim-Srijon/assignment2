@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --dark1: #131313;
+    --dark2: #424242;
+    --dark3: #727272;
+    --orange: #ff900e;
+
+}
+
+/* ---------------------------------------
+                section 1
+---------------------------------------*/
+
+.section1{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 45px;
+}
+
+.top-line{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.main-header{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--dark1);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark2);
+}
+
+.title-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 102px;
+}
+.heading{
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--dark1);
+    text-align: center;
+}
+
+.p1{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark3);
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 28px;
+}
+
+.button{
+    color: white;
+    background-color: var(--orange);
+    width: 180px;
+    height: 64px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.section1 img{
+    width: 100%;
+    padding-top: 50px;
+    border-radius: 8px;
+}
+
+/* ---------------------------------------
+                section 2
+---------------------------------------*/
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 301px 130px 301px;
+    gap: 73px;
+
+
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.teams img{
+    width: 342px;
+    height: 342px;
+}
+
+.heading2{
+    font-size: 45px;
+    width: 468px;
+}
+
+.light{
+    font-weight: 500;
+    color: var(--dark3);
+}
+.dark{
+    font-weight: 700;
+    columns: var(--dark1);
+}
+
+.orange{
+    font-weight: 700;
+    color: var(--orange);
+}
+
+.article2 .p2{
+    padding-top: 24px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 537px;
+    color: var(--dark3);
+}
+
+
+/* ---------------------------------------
+                section 3
+---------------------------------------*/
+
+
+
+/* ---------------------------------------
+                section 4
+---------------------------------------*/
